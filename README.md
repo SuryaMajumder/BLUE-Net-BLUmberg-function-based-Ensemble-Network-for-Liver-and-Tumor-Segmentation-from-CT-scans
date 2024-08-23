@@ -15,6 +15,10 @@ Scans".
 
 ## Results
 
+| Visualizations                     | U-Net                              | Link-Net                           | FPN                                |
+|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
+| Heatmaps | ![unet-heatmap](https://github.com/user-attachments/assets/d6a95d10-9b91-4da4-8119-32a4cf924fcb) | ![linknet-heatmap](https://github.com/user-attachments/assets/3e0d572f-e697-4dc1-9823-c69b021781e1) | ![fpn-heatmap](https://github.com/user-attachments/assets/88aa224c-37f4-4ed4-b40f-8184a0756606) |
+| GradCams | ![Unet-GradCam](https://github.com/user-attachments/assets/b6e763be-0c0f-47da-8466-882935cbdd5a) | ![LinkNet-GradCam](https://github.com/user-attachments/assets/80fcde7e-69b7-498d-ab47-d295fb0920bc) | ![FPN-GradCam](https://github.com/user-attachments/assets/4f401890-9b2a-42e9-845f-36d4afa63022) |
 
 ## Citation:
 Please do cite our paper in case you find it useful for your research.<br/>
