@@ -13,6 +13,10 @@ Scans".
 ![model architecture](https://github.com/user-attachments/assets/9b3ce863-035f-4175-b801-c7607096d4a0)
 
 
+## Abstract
+Liver segmentation plays a significant role in medical image analysis based diagnosis for liver-related diseases like liver cancer. Recently, deep learning models, particularly U-Net-like architectures, have obtained notable success in medical image segmentation. Ensemble learning is a powerful approach that helps leverage the performance of an overall model by incorporating the decisions of multiple models. In this paper, we propose an ensemble learning model, called BLUE-Net (BLUmberg function based Ensemble Network), for liver as well as tumor segmentation from computed tomography (CT) scan images using a combination of three models, namely the basic U-Net, Link-Net, and Feature Pyramid Network(FPN). We combine the decisions of these models with a fuzzy-ranking scheme by using a modified Blumberg function to decide whether a pixel in a CT scan image is a part of a foreground pixel of the segmentation mask. We have evaluated our model on the publicly available 3DIRCADb liver and liver tumor segmentation dataset, and the obtained results demonstrate the usefulness of ensemble learning in improving segmentation performance in comparison to state-of-the-art methods.
+
+
 ## Results
 
 | Visualizations                     | U-Net                              | Link-Net                           | FPN                                |
