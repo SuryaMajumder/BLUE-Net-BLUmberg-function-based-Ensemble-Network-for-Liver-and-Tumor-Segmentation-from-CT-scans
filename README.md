@@ -9,7 +9,7 @@
 This is the official implementation of "BLUE-Net: BLUmberg Function-Based Ensemble Network for Liver and Tumor Segmentation from CT
 Scans".
 
-![Link to Paper](https://doi.org/10.1007/978-981-97-6489-1_6)
+[Link to Paper](https://doi.org/10.1007/978-981-97-6489-1_6)
 
 ### Overall workflow:
 ![model architecture](https://github.com/user-attachments/assets/9b3ce863-035f-4175-b801-c7607096d4a0)
