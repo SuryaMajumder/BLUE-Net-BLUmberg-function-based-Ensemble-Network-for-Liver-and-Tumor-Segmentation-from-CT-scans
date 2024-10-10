@@ -9,6 +9,8 @@
 This is the official implementation of "BLUE-Net: BLUmberg Function-Based Ensemble Network for Liver and Tumor Segmentation from CT
 Scans".
 
+![Link to Paper](https://doi.org/10.1007/978-981-97-6489-1_6)
+
 ### Overall workflow:
 ![model architecture](https://github.com/user-attachments/assets/9b3ce863-035f-4175-b801-c7607096d4a0)
 
@@ -28,7 +30,19 @@ Liver segmentation plays a significant role in medical image analysis based diag
 
 ## Citation:
 Please do cite our paper in case you find it useful for your research.<br/>
-Citation-<br/>
-
+If you're using this article or code in your research or applications, please consider citing using this BibTeX:<br/>
+```
+@InProceedings{10.1007/978-981-97-6489-1_6,
+  author="Majumder, Surya and Sau, Arup and Halder, Akash and Saha, Priyam and Sarkar, Ram",
+  editor="Das, Nibaran and Khan, Ajoy Kumar and Mandal, Swagata and Krejcar, Ondrej and Bhattacharjee, Debotosh",
+  title="BLUE-Net: BLUmberg Function-Based Ensemble Network for Liver and Tumor Segmentation from CT Scans",
+  booktitle="Proceedings of International Conference on Data, Electronics and Computing",
+  year="2024",
+  publisher="Springer Nature Singapore",
+  address="Singapore",
+  pages="79--98",
+  abstract="Liver segmentation plays a significant role in medical image analysis-based diagnosis for liver-related diseases like liver cancer. Recently, deep learning models, particularly U-Net-like architectures, have obtained notable success in medical image segmentation. Ensemble learning is a powerful approach that helps leverage the performance of an overall model by incorporating the decisions of multiple models. In this paper, we propose an ensemble learning model, called BLUmberg function-based Ensemble Network (BLUE-Net), for liver as well as tumor segmentation from computed tomography (CT) scan images using a combination of three models, namely the basic U-Net, Link-Net, and Feature Pyramid Network (FPN). We combine the decisions of these models with a fuzzy-ranking scheme by using a modified Blumberg function to decide whether a pixel in a CT scan image is a part of a foreground pixel of the segmentation mask. We have evaluated our model on the publicly available 3DIRCADb liver and liver tumor segmentation dataset, and the obtained results demonstrate the usefulness of ensemble learning in improving segmentation performance in comparison to state-of-the-art methods. Source codes along with a dry run of the proposed method can be found at the GitHub link: https://tinyurl.com/5x4xm2e8.",
+  isbn="978-981-97-6489-1"
+}
+```
 <br/>
--Link to our paper-<br/>
